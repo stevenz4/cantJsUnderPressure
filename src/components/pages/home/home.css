@@ -1,0 +1,50 @@
+.homeTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 10vmin;
+    margin: 5% 0;
+}
+
+.homeSubTitle {
+    text-align: center;
+    margin: 5% 0;
+    font-size: 5vmin;
+    font-weight: 400;
+}
+
+.homeSubTitle b {
+    font-size: 5vmin;
+    font-weight: 700;
+}
+
+.homeButtonContainer {
+    text-align: center;
+}
+
+.homeButton {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    padding: 2vmin;
+    font-size: 8vmin;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    background: rgb(22, 22, 22);
+    cursor: pointer;
+}
+
+.homeButton:hover {
+  outline: 0;
+  background: rgb(61, 61, 61);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.homeButton:active {
+  outline: 0;
+  background: rgb(33, 33, 33);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
